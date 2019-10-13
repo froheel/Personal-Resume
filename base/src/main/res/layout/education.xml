@@ -159,6 +159,16 @@
                     app:layout_constraintTop_toBottomOf="@+id/collegeName"
                     card_view:ignore="MissingConstraints" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="@string/grades"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/roboto"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/collegeName"
+                    card_view:ignore="MissingConstraints" />
 
                 <TextView
                     android:layout_width="wrap_content"
