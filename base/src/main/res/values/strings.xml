@@ -111,6 +111,17 @@
     <string name="company_name3">Google scholarship</string>
     <string name="experience_time3">August 2018 - August 2019</string>
     <string name="worked_on3">Worked On:</string>
-
-
+    <string name="cocurricular">Co-Curricular Activities</string>
+    <string name="cocurr_1_name">KickStart</string>
+    <string name="cocurr_2_name">International Women’s Day Lahore, Pakistan</string>
+    <string name="cocurr_3_name">Softec FAST</string>
+    <string name="cocurr_4_name">Intra FAST programming competition</string>
+    <string name="cocurr_1_year">2019</string>
+    <string name="cocurr_2_year">2019</string>
+    <string name="cocurr_3_year">2019</string>
+    <string name="cocurr_4_year">2018</string>
+    <string name="cocurr_1_description">Participated in Round D of KickStart</string>
+    <string name="cocurr_2_description">Managed it with WTM scholars in a gathering of 60 people in LUMS</string>
+    <string name="cocurr_3_description">Deputy Head of Data Science Competition</string>
+    <string name="cocurr_4_description">Participated in programming competition organized by ACM</string>
 </resources>

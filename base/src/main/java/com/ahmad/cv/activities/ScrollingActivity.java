@@ -5,6 +5,8 @@ import android.graphics.PorterDuff;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+
+import com.ahmad.cv.fragments.CocurricularFragment;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.tabs.TabLayout;
 import com.rhexgomez.typer.roboto.TyperRoboto;
@@ -46,6 +48,7 @@ public class ScrollingActivity extends AppCompatActivity {
         mViewPagerAdapter.addFragment(AboutFragment.newInstance(), "About");
         mViewPagerAdapter.addFragment(EducationFragment.newInstance(), "Education");
         mViewPagerAdapter.addFragment(ProfessionFragment.newInstance(), "Experience");
+        mViewPagerAdapter.addFragment(CocurricularFragment.newInstance(), "Co-curricular");
         mViewPager.setAdapter(mViewPagerAdapter);
         tabLayout.setupWithViewPager(mViewPager);
         setupTabIcons();
@@ -60,11 +63,13 @@ public class ScrollingActivity extends AppCompatActivity {
        final int[] tabIcons = {
                 R.drawable.ic_person_black_24dp,
                 R.drawable.education,
-                R.drawable.tool
+                R.drawable.tool,
+                R.drawable.ic_gamepad_black_24dp
         };
         Objects.requireNonNull(tabLayout.getTabAt(0)).setIcon(tabIcons[0]);
         Objects.requireNonNull(tabLayout.getTabAt(1)).setIcon(tabIcons[1]);
         Objects.requireNonNull(tabLayout.getTabAt(2)).setIcon(tabIcons[2]);
+        Objects.requireNonNull(tabLayout.getTabAt(3)).setIcon(tabIcons[3]);
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -74,6 +79,8 @@ public class ScrollingActivity extends AppCompatActivity {
                 if(tab.getPosition() == 1){
                     Objects.requireNonNull(tab.getIcon()).setColorFilter(Color.parseColor("#2B2B2B"), PorterDuff.Mode.SRC_IN); }
                 if(tab.getPosition() == 2){
+                    Objects.requireNonNull(tab.getIcon()).setColorFilter(Color.parseColor("#2B2B2B"), PorterDuff.Mode.SRC_IN); }
+                if(tab.getPosition() == 3){
                     Objects.requireNonNull(tab.getIcon()).setColorFilter(Color.parseColor("#2B2B2B"), PorterDuff.Mode.SRC_IN); }
             }
             @Override
