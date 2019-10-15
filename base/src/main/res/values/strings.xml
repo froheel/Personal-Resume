@@ -30,28 +30,32 @@
     <string name="answer">A creative, strong-willed and hard-working computer programmer dedicated to empower women with technology. Proficient in computer programming and algorithm solving.
         Eager to learn about emerging technologies and develop innovative solutions to real life problems.
     </string>
-    <string name="experience_title">Senior Software Engineer</string>
-    <string name="experience_description">"\u2713 Picasso,Glide (Libraries)\n""\u2713 MVP \n""\u2713 MVVM \n""\u2713 Room Database\n""\u2713 Firebase"</string>
+    <string name="experience_title">Google CodeU Participant</string>
+    <string name="experience_description">"Designed and coded a web app in a team of 4 people under the mentorship of a Google engineer using Java, CSS, HTML and JavaScript over 10 weeks."</string>
     <string name="why_i_did_choose_work_1">"\u2713 Because I need to cache the image\n""\u2713 Design pattern - unit testing easier and lesser\n"\u0020 \u0020 "code size than MVP\n""\u2713 Design pattern - Easier for unit testing\n""\u2713 Save data in a local database using Room\n""\u2713 Firebase provides a realtime database and \n"\u0020 \u0020 "backend as a service"
 
     </string>
 
+    <string name="achievements">Achievements</string>
     <string name="year11">(year)</string>
-    <string name="experience_title1">Visiting Faculty</string>
-    <string name="experience_description1">\u2713 Course: Software for Mobile Devices \n\u2713 Course: Advanced Programming\n\u2713 Total Students: 216</string>
+    <string name="experience_title1">Developer Student Clubs Lead FAST Lahore</string>
+    <string name="experience_description1">Selected as a DSC Lead for my campus to organize hands on workshops related to Google technologies and empower students by sharing resources.</string>
     <string name="experience_year1">(year)</string>
-    <string name="experience_title2">Software Engineer</string>
-    <string name="experience_description2">\u2713 Java for Blackberry SDK 7.1 \n\u2713 Java for Android\n\u2713 Sencha Touch 2 (HTML5)\n\u2713 SMTP Mail Configurations\n\u2713 CronJobs and Task Schedulers for Auto Execution of the Scripts at a given time.</string>
+    <string name="experience_title2">Google Women Techmakers Scholarship</string>
+    <string name="experience_description2">One of the 73 selected women scholars from all across Asia. Invited to the Google office Singapore for a 3 day retreat.</string>
     <string name="experience_year2">Aug 2012 – Jan 2014</string>
 
-    <string name="project_title">FamilyTime Parental Control</string>
-    <string name="project_description">\u2713 Worked on screen time features for their application.
-        \n\u2713 Made easy and flexible UI/ UX so parents can set screen time limits and other features to their kids.
+    <string name="project_title">CS Opportunities Portal for Pakistani Students</string>
+    <string name="project_description">\u2713  Designed and coded a web app in a team of 4 people under the mentorship of a
+        Google engineer using Java, CSS, HTML and JavaScript over 10 weeks.
+        \n\u2713 Leveraged various Google Cloud APIs, including App Engine and Datastore.
+        I designed and coded the Homepage, MessageBoard chat, pagination and
+        also worked with BlobStore.
     </string>
     <string name="year">(2019)</string>
 
-    <string name="project_title1">FamilyTime Child App</string>
-    <string name="project_description1">"\u2713 Parental control features on kid's device. </string>
+    <string name="project_title1">File DataBase System</string>
+    <string name="project_description1">"\u2713 Coded using dynamic memory, hash tables and linked lists in C++. \n\u2713 Used linked lists as the collision resolution strategy. \n\u2713 Learnt how to use STL and DS.</string>
     <string name="year1">(2019)</string>
     <string name="project_title2">Smart Restaurant App </string>
     <string name="project_description2">\u2713 Smart way to manage your Restaurant</string>
@@ -88,24 +92,24 @@
     <string name="institute_title2">Institute Title</string>
     <string name="institute_year2">(year)</string>
     <string name="grades2">(grades)</string>
-    <string name="skill_title_1">Android</string>
+    <string name="skill_title_1">C++</string>
     <string name="skill_title_2">Java</string>
-    <string name="skill_title_3">Web Development</string>
-    <string name="skill_title_4">Javascript</string>
-    <string name="skill_title_5">PHP</string>
+    <string name="skill_title_3">SQL Server</string>
+    <string name="skill_title_4">VB.NET</string>
+    <string name="skill_title_5">HTML and CSS</string>
     <string name="projects_title">Projects</string>
     <string name="why_i_did_choose_above_title_0">Why above:</string>
     <string name="why_i_did_choose_above_title_1">Why did I choose to teach:</string>
     <string name="why_i_did_choose_work_2">"\u2713" Teaching does not finish when we give our students the information, it can be acquired from many sources, but the ability to think, reason and criticize can only be incorporated if we foster and encourage them through thick and thin.</string>
     <string name="why_i_did_choose_work_3">"\u2713" Client based company, so considering the requirements from clients and keeping in point latest technology at that time I used above technology stack. </string>
-    <string name="company_name1">YumyApps Pvt Ltd</string>
-    <string name="experience_time1">November 2016 - October (3 years)</string>
-    <string name="worked_on_title">Worked On:</string>
-    <string name="company_name2">National University College of Computer and Emerging Sciences</string>
-    <string name="experience_time2">August 2018 - December 2019 (~1.5 years)</string>
+    <string name="company_name1">Google virtual program</string>
+    <string name="experience_time1">June 2019 - August 2019</string>
+    <string name="worked_on_title">Description:</string>
+    <string name="company_name2">Powered by Google Developers</string>
+    <string name="experience_time2">August 2019 - August 2020</string>
     <string name="worked_on2">Worked On:</string>
-    <string name="company_name3">MobilezApp inc</string>
-    <string name="experience_time3">August 2012 - January 2014 (1.6 years)</string>
+    <string name="company_name3">Google scholarship</string>
+    <string name="experience_time3">August 2018 - August 2019</string>
     <string name="worked_on3">Worked On:</string>
 
 

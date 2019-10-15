@@ -234,7 +234,7 @@
                 android:id="@+id/projectTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/experience"
+                android:text="@string/achievements"
                 android:textColor="@color/blackColor"
                 android:textSize="18sp"
                 app:fontFamily="@font/roboto"
@@ -314,33 +314,6 @@
                     card_view:ignore="MissingConstraints" />
 
 
-                <TextView
-                    android:id="@+id/WhyChooseAboveFeature"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/why_i_did_choose_above_title_1"
-                    android:textColor="@color/blackColor"
-                    android:textSize="16sp"
-                    android:layout_marginTop="10dp"
-                    app:fontFamily="@font/roboto"
-                    android:layout_marginStart="40dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/ExperienceDescription"
-                    card_view:ignore="MissingConstraints" />
-
-
-                <TextView
-                    android:id="@+id/ChooseAboveFeatureAnswer"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/why_i_did_choose_work_2"
-                    android:textSize="14sp"
-                    app:fontFamily="@font/roboto"
-                    android:layout_marginStart="40dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/WhyChooseAboveFeature"
-                    card_view:ignore="MissingConstraints" />
-
                 <ImageView
                     android:id="@+id/emailIcon"
                     android:layout_width="25dp"
@@ -361,7 +334,7 @@
                     android:background="@color/grayColor"
                     android:layout_marginTop="10dp"
                     card_view:ignore="MissingConstraints"
-                    app:layout_constraintTop_toBottomOf="@+id/ChooseAboveFeatureAnswer"
+                    app:layout_constraintTop_toBottomOf="@+id/ExperienceDescription"
                     card_view:layout_editor_absoluteX="0dp" />
 
 
@@ -437,33 +410,6 @@
                     card_view:ignore="MissingConstraints" />
 
 
-                <TextView
-                    android:id="@+id/WhyChooseAboveFeature1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/why_i_did_choose_above_title_0"
-                    android:textColor="@color/blackColor"
-                    android:textSize="16sp"
-                    android:layout_marginTop="10dp"
-                    app:fontFamily="@font/roboto"
-                    android:layout_marginStart="40dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/ExperienceDescription1"
-                    card_view:ignore="MissingConstraints" />
-
-
-                <TextView
-                    android:id="@+id/ChooseAboveFeatureAnswer1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/why_i_did_choose_work_1"
-                    android:textSize="14sp"
-                    app:fontFamily="@font/roboto"
-                    android:layout_marginStart="40dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/WhyChooseAboveFeature1"
-                    card_view:ignore="MissingConstraints" />
-
                 <ImageView
                     android:id="@+id/emailIcon1"
                     android:layout_width="25dp"
@@ -485,7 +431,7 @@
 
                     android:layout_marginTop="10dp"
                     card_view:ignore="MissingConstraints"
-                    app:layout_constraintTop_toBottomOf="@+id/ChooseAboveFeatureAnswer1"
+                    app:layout_constraintTop_toBottomOf="@+id/ExperienceDescription1"
                     card_view:layout_editor_absoluteX="0dp" />
 
 
@@ -560,32 +506,6 @@
                     card_view:ignore="MissingConstraints" />
 
 
-                <TextView
-                    android:id="@+id/WhyChooseAboveFeature2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/why_i_did_choose_above_title_0"
-                    android:textColor="@color/blackColor"
-                    android:textSize="16sp"
-                    android:layout_marginTop="10dp"
-                    app:fontFamily="@font/roboto"
-                    android:layout_marginStart="40dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/ExperienceDescription2"
-                    card_view:ignore="MissingConstraints" />
-
-
-                <TextView
-                    android:id="@+id/ChooseAboveFeatureAnswer2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/why_i_did_choose_work_3"
-                    android:textSize="14sp"
-                    app:fontFamily="@font/roboto"
-                    android:layout_marginStart="40dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/WhyChooseAboveFeature2"
-                    card_view:ignore="MissingConstraints" />
 
                 <ImageView
                     android:id="@+id/emailIcon2"
